@@ -25,7 +25,7 @@ Bear in mind this is still in development and missing the following core feature
 ## Prerequisites
 - Stable [NodeJS](https://nodejs.org/) Install
 - Stable [Rust](https://www.rust-lang.org/) Install
-- Yarn installation (`npm i -g yarn`)
+- [Bun](https://bun.sh) Install
 
 ## Steps
 ```
@@ -33,7 +33,7 @@ Bear in mind this is still in development and missing the following core feature
 cargo install tauri-cli
 
 # Install dependencies
-yarn
+bun install
 
 # Run app for development
 cargo tauri dev
